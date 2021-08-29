@@ -1,0 +1,16 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias complexCal='./COLLEGE/C/COMPLEX/basic.out'
+alias calc='./COLLEGE/C/HW/Assignment_2/q1.out'
+alias TODOs='./COLLEGE/C/TaskManager/TaskManager.out'
+#~/COLLEGE/C/pattern.out | lolcat
+#cbonsai
+zsh
+#PS1='[\u@\h \W]\$ '
+PS1="\e[0;34m[\u@\h \W]\$ \e[m"
